@@ -5,11 +5,11 @@
     <style>
         body {
             font-family: Arial;
-          <button>Contact Me</button>
             text-align: center;
+            background-color: #f0f8ff;
         }
         header {
-           <button>Contact Me</button>
+            background-color: #0077cc;
             color: white;
             padding: 15px;
         }
@@ -20,9 +20,17 @@
             background-color: #333;
             color: white;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input {
+            padding: 8px;
+            width: 200px;
         }
     </style>
 </head>
@@ -39,15 +47,25 @@
 
     <h2>My Skills</h2>
     <p>HTML, Java, C Programming and many more things</p>
+
+    <!-- Photo -->
+    <img src="photo.jpg" width="150"><br><br>
+
+    <!-- Button -->
+    <button>Contact Me</button>
+
+    <!-- Contact Form -->
+    <h2>Contact Form</h2>
+    <form>
+        <input type="text" placeholder="Your Name"><br><br>
+        <input type="email" placeholder="Your Email"><br><br>
+        <button type="submit">Submit</button>
+    </form>
 </section>
-<img src="photo.jpg" width="150">
+
 <footer>
     <p>© 2026 Rihan</p>
 </footer>
-<form>
-  <input type="text" placeholder="Your Name"><br><br>
-  <input type="email" placeholder="Your Email"><br><br>
-  <button>Submit</button>
-</form>
+
 </body>
 </html>
